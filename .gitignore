@@ -1,0 +1,46 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+# Entornos virtuales
+venv/
+.env/
+.env.*  # Por si manejas varios entornos como .env.local
+
+# Archivos del sistema
+__pycache__/
+*.py[cod]
+*.so
+.DS_Store
+
+# Archivos de configuración del editor
+.vscode/
+.idea/
+
+# Archivos generados por el sistema operativo
+Thumbs.db
+ehthumbs.db
+
+# Archivos de modelos o datasets pesados (opcional)
+*.pkl
+*.joblib
+*.csv
+*.xlsx
+
+# Archivos de logs
+*.log
+
+# Compilados de Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos de Render o Uvicorn
+*.pid
+*.db
+
+# Evitar subir notebooks si no se necesitan
+*.ipynb
+
+# Evitar subir credenciales personales o tokens
+apikey.txt
+secret.txt
